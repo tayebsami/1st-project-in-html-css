@@ -1,0 +1,113 @@
+*{
+    padding:0 ;
+    margin:0;
+    font-family:'KalamRegular';
+
+}
+body, html {
+  height: 100%;
+}
+@font-face {
+	font-family: 'KalamRegular';
+	src: url('./KalamRegular.eot');
+	src: local('KalamRegular'), url('./KalamRegular.woff') format('woff'), url('./KalamRegular.ttf') format('truetype');
+}
+header
+{
+  /* The image used */
+  background-image: url("images/background1.jpg");
+  /* Full height */
+   height: 100%;
+   width: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/* filter: blur(5px);*/
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  /*color:white;*/
+  margin-top: 60px;
+}
+ul li{
+  display: inline-block;
+}
+ul li.active a
+{
+  background-color: #9E9E9E ;
+  color: white;
+}
+ul li a
+{
+  color: white;
+  text-shadow: 1px 1px 0px black;
+  text-decoration: none;
+  padding:10px 25px;
+  border: 1px transparent solid;
+}
+
+ul li a:hover
+{
+  background-color:#9E9E9E ;
+  transition: 1s ease;
+
+}
+.logo img
+{
+  height: auto;
+  width: 120px;
+/float: left;
+  border: 2px solid black;
+  border-radius: 50px 20px;
+ background-color: #E0E0E0;
+  margin-top:20px;
+  margin-left: -30px;
+  opacity: 1;
+
+
+}
+.main
+{
+  max-width: 1200px;
+  margin:auto;
+  /*text-align: center;*/
+}
+.title
+{
+  position: absolute;
+  top: 30%;
+  left:46%;
+  transform: translate(-50%,50%);
+}
+.title h1
+{
+  color:black;
+  font-size:70px;
+  /*background-color: red;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+}
+.button
+{
+  position: absolute;
+  top: 60%;
+  left:47%;
+  transform: translate(-50%,50%);
+}
+.btn
+{
+  border: 1px solid yellow;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+  margin-left: 10px;
+}
+.btn:hover
+{
+  background-color: #9E9E9E;
+
+}
